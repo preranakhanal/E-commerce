@@ -29,8 +29,18 @@ const Footer = () => {
           </div>
           <form className='flex items-center justify-center mt-8'>
             <input type="email" placeholder="Enter your email" className='w-full p-2 rounded-l-lg bg-gray-800 border border-gray-600' />
-            <button className='bg-red-600 text-white px-4 py-2 rounded-r-lg border border-gray-600 '>Subscribe</button>
+            <button className='bg-red-600 text-white px-4 py-2 rounded-r-lg  '>Subscribe</button>
           </form>
+        </div>
+      </div>
+
+      <div className='mt-8 border-t border-gray-700 pt-4'>
+        <div className='container mx-auto flex flex-col md:flex-row justify-between items-center'>
+          <p>&copy; 2025 e-shop All rights reserved.</p>
+          <div className='flex space-x-6 mt-4 md:mt-0'>
+            <a href="" className='hover:underline'>Privacy Policy</a>
+            <a href="" className='hover:underline'>Terms & condition</a>
+          </div>
         </div>
       </div>
     </footer>
